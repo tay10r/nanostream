@@ -1,3 +1,4 @@
 build
+.cache
 data
 __pycache__

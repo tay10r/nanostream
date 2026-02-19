@@ -4,7 +4,7 @@
 
 #define NANOSTREAM_TILE_HEIGHT 120
 
-#define NANOSTREAM_PACKET_SIZE (1200 + (12 * sizeof(float) * 2))
+#define NANOSTREAM_PACKET_SIZE (1200 + (8 * 2 * sizeof(float)))
 
 #ifdef __cplusplus
 extern "C"
